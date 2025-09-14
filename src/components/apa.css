@@ -1,0 +1,52 @@
+.apa-hero {
+  background-color: #ffeede; /* Fondo durazno */
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.apa-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.apa-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+.apa-highlight {
+  color: #9b6bff; /* Violeta como en el mockup */
+}
+
+.apa-subtitle {
+  font-size: 1.2rem;
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+}
+
+.apa-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #ff6600;
+  color: white;
+  font-weight: 600;
+  padding: 0.8rem 1.6rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.apa-button:hover {
+  background-color: #e65a00;
+}
+
+.apa-button-icon {
+  width: 20px;
+  height: 20px;
+}
