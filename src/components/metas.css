@@ -1,0 +1,69 @@
+.metas-seccion {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #FFEDDB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+}
+
+.metas-titulo {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.titulo-azul {
+  color: #8A63D2;
+}
+
+.titulo-rosa {
+  color: #D47A9A;
+}
+
+.modelo-caja {
+  background-color: #FFFFFF;
+  border: 2px solid #FDBF60;
+  border-radius: 24px;
+  padding: 2.5rem;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.modelo-subtitulo {
+  color: #F97316;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pildoras-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.pildora {
+  background-color: #FEEEDD;
+  padding: 1.25rem 1rem;
+  border-radius: 16px;
+  text-align: center;
+  font-weight: 500;
+  color: #4D4D4D;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .pildoras-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .metas-titulo {
+    font-size: 2.5rem;
+  }
+}
