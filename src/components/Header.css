@@ -1,11 +1,11 @@
 .header {
   background-color: white;
-  padding: 10px 20px;
+  padding: 20px 10px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   position: sticky;
   top: 0;
-  z-index: 100; /* Asegura que se mantenga por encima de otro contenido */
-  background-color: white; /* O el color que tenga tu header para que no se vea transparente */
+  z-index: 100;
+  background-color: white; 
   width: 100%;
 }
 
@@ -15,18 +15,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 /* Logo */
 .logo img {
-  width: 110px;   
+  width: 120px;   
   height: auto;
 }
 
 /* Navegación */
 .nav {
   display: flex;
-  gap: 30px;
+  gap: 50px;
+  position: absolute;
+  left:48%;
+  transform: translateX(-50%);
 }
 
 .nav a {
@@ -51,7 +55,6 @@
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
-  transition: background-color 0.2s ease;
 }
 
 .btn-unete:hover {

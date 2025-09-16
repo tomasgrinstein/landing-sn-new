@@ -43,7 +43,9 @@ export default function ComoSeUsa() {
 
   return (
     <section className="como-se-usa-container">
-      <h2 className="como-se-usa-title">¿Cómo se usa?</h2>
+      <h2 className="como-se-usa-title">
+        ¿Cómo se usa <span className="text-extrabold">SignAI</span>?
+      </h2>
       <div className="steps-wrapper">
         {stepsData.map((step, index) => (
           <Step key={index} icon={step.icon} text={step.text} />

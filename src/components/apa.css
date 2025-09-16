@@ -1,8 +1,7 @@
 .apa-hero {
-  background-color: #FFEBD9;
+  background-color: #FFEDDB; /* Fondo durazno */
   padding: 6rem 2rem;
   text-align: center;
-  min-height: 100vh; 
 }
 
 .apa-container {
@@ -19,7 +18,7 @@
 }
 
 .apa-highlight {
-  color: #9b6bff;
+  color: #9b6bff; /* Violeta como en el mockup */
 }
 
 .apa-subtitle {
