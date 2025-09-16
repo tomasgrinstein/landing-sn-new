@@ -5,7 +5,8 @@ import Hacer from './components/hacer';
 import Reader from './components/reader';
 import ParteAbajo from './components/parteabajo';
 import ComoSeUsa from './components/ComoSeUsa';
-import Metas from './components/Metas'; // <-- 1. Importar el componente Metas
+import Metas from './components/Metas';
+import Ayudanos from './components/ayudanos';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Hacer />
       <Reader />
       <ComoSeUsa/>
-      <Metas /> {/* <-- 2. Agregar el componente aquí */}
+      <Metas />
+      <Ayudanos/>
       <ParteAbajo />
     </>
   );

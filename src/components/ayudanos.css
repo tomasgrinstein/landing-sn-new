@@ -1,0 +1,97 @@
+.ayudanos-section {
+  background-color: #ffeddb;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 140px 80px;
+  gap: 60px;
+  min-height: 80vh;
+  flex-wrap: wrap;
+}
+
+.ayudanos-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ayudanos-title {
+  color: #ff7a00;
+  font-size: 4rem;
+  font-weight: 800;
+  margin: 30px 0 40px 0;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.ayudanos-description {
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0 0 40px 0;
+  max-width: 83%;
+}
+
+.ayudanos-button {
+  background-color: #ff7a00;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 35px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heart-icon {
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+/* Contenedor para la imagen del celular a la derecha */
+.ayudanos-image-placeholder {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 200px;
+}
+/* Estilos para la imagen del celular */
+.ayudanos-image-placeholder img {
+  /* Hacemos que la imagen sea flexible y ocupe el 100% del espacio que le demos */
+  width: 60%;
+  height: auto;
+}
+
+/* ----- Responsividad para pantallas más pequeñas ----- */
+@media (max-width: 992px) {
+  .ayudanos-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 20px;
+    /* En móvil, volvemos a centrar todo para que se vea bien */
+    align-items: center;
+  }
+
+  .ayudanos-content {
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .ayudanos-title {
+    font-size: 3.5rem;
+  }
+  
+  .ayudanos-description {
+    /* Reseteamos el max-width en móvil para que ocupe el ancho disponible */
+    max-width: 100%;
+  }
+
+  .ayudanos-image-placeholder {
+    margin-top: 40px;
+  }
+}
