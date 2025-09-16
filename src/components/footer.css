@@ -1,0 +1,102 @@
+.footer {
+  background-color: #1A202C; /* Azul oscuro/gris */
+  color: #E2E8F0; /* Texto gris claro */
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px; /* Ancho mínimo para cada columna */
+}
+
+.footer-logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+.footer-col p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  max-width: 250px;
+}
+
+.social-links a {
+  color: white;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.footer-col h4 {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+/* Línea naranja debajo de los títulos */
+.footer-col h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #F97316;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links ul li {
+  margin-bottom: 0.75rem;
+}
+
+.links a {
+  color: #A0AEC0; /* Gris más claro */
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.links a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 2rem auto 0 auto;
+  padding-top: 2rem;
+  border-top: 1px solid #4A5568; /* Línea divisoria */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #A0AEC0;
+}
+
+.powered-by {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.aquila-logo {
+  height: 20px; /* Ajusta el tamaño según tu logo */
+  width: auto;
+}

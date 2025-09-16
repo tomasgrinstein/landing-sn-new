@@ -3,10 +3,11 @@ import Header from './components/Header';
 import Apa from './components/apa';
 import Hacer from './components/hacer';
 import Reader from './components/reader';
-import ParteAbajo from './components/parteabajo';
 import ComoSeUsa from './components/ComoSeUsa';
 import Metas from './components/Metas';
 import Ayudanos from './components/ayudanos';
+import Promo from './components/promo';   // <-- Importamos Promo
+import Footer from './components/Footer'; // <-- Importamos Footer
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <ComoSeUsa/>
       <Metas />
       <Ayudanos/>
-      <ParteAbajo />
+      <Promo />    {/* <-- Agregamos Promo */}
+      <Footer />   {/* <-- Agregamos Footer y reemplazamos a ParteAbajo */}
     </>
   );
 }
