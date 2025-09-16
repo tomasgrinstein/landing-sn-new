@@ -2,6 +2,7 @@
   background-color: #FFEBD9;
   padding: 6rem 2rem;
   text-align: center;
+  min-height: 100vh; 
 }
 
 .apa-container {
@@ -18,7 +19,7 @@
 }
 
 .apa-highlight {
-  color: #9b6bff; /* Violeta como en el mockup */
+  color: #9b6bff;
 }
 
 .apa-subtitle {
@@ -49,4 +50,13 @@
 .apa-button-icon {
   width: 20px;
   height: 20px;
+}
+
+.btn-probar-ahora {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }

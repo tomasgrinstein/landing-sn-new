@@ -1,11 +1,9 @@
-// src/components/Apa.jsx
 import './apa.css';
 
 const Apa = () => {
   return (
     <section className="apa-hero">
       <div className="apa-container">
-        {/* Texto principal */}
         <h1 className="apa-title">
           Tu traductor de lengua de señas gratuito{" "}
           <span className="apa-highlight">impulsado por IA.</span>
@@ -15,8 +13,6 @@ const Apa = () => {
           lengua de señas a texto y audio, y ayudando a fomentar el aprendizaje
           del dialecto.
         </p>
-
-        {/* Botón */}
         <button className="apa-button">
           Explorar más
           <svg
@@ -32,22 +28,10 @@ const Apa = () => {
             />
           </svg>
         </button>
-
-        {/* Notificación */}
-        <div className="notificacion">
-          <p>Recibí notificaciones sobre novedades:</p>
-          <form className="notificacion-form">
-            <input 
-              type="email" 
-              placeholder="Tu correo electrónico" 
-              className="notificacion-input"
-            />
-            <button type="submit" className="apa-button">
-              Suscribirse
-            </button>
-          </form>
-        </div>
       </div>
+      <button className="apa-button btn-probar-ahora">
+        Probar ahora
+      </button>
     </section>
   );
 };
