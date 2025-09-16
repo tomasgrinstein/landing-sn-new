@@ -6,6 +6,7 @@ import Apa from './components/apa';
 import Hacer from './components/hacer';
 import Reader from './components/reader';
 import ParteAbajo from './components/parteabajo';
+import ComoSeUsa from './components/ComoSeUsa';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Apa />
       <Hacer />
       <Reader />
+      <ComoSeUsa/>
       <ParteAbajo />
     </>
   );

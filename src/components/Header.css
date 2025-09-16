@@ -2,6 +2,11 @@
   background-color: white;
   padding: 10px 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100; /* Asegura que se mantenga por encima de otro contenido */
+  background-color: white; /* O el color que tenga tu header para que no se vea transparente */
+  width: 100%;
 }
 
 .header-container {

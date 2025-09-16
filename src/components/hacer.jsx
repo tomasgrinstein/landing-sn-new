@@ -1,38 +1,55 @@
-// src/components/hacer.jsx
-
 import React from 'react';
+import './hacer.css'; // Importamos el archivo CSS
 
-// Separamos los datos para que el código sea más limpio
-const featuresData = [
+// Icono de "Play" para las tarjetas
+const PlayIcon = () => (
+  <svg 
+    width="24" 
+    height="24" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    xmlns="http://www.w.org/2000/svg"
+  >
+    <path d="M8 5V19L19 12L8 5Z" fill="white"/>
+  </svg>
+);
+
+// Datos actualizados para que coincidan con la imagen
+const problemData = [
   {
     title: 'Traducción',
-    description: 'Traduce la lengua de señas a voz y texto para una comunicación bidireccional, rompiendo barreras en la comunicación diaria.'
+    description: 'SignAI traduce videos de lengua de señas de manera asincrónica, para que las personas que no sepan LSA puedan entender.'
   },
   {
     title: 'Aprendizaje',
-    description: 'Explora y aprende lengua de señas de una manera interactiva y divertida con ejemplos prácticos y lecciones personalizadas.'
+    description: 'SignAI cuenta con juegos para el aprendizaje de lengua de señas.'
   }
 ];
 
-// Componente para una tarjeta individual
-const FeatureCard = ({ title, description }) => {
+// Componente para una tarjeta individual, ahora con icono.
+const ProblemCard = ({ title, description }) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-      <h3 className="text-xl font-bold text-gray-800 mb-2">{title}</h3>
-      <p className="text-gray-600">{description}</p>
+    <div className="hacemos-card">
+      <div className="card-header">
+        <div className="card-icon-container">
+          <PlayIcon />
+        </div>
+        <h3 className="card-title">{title}</h3>
+      </div>
+      <p className="card-description">{description}</p>
     </div>
   );
 };
 
-// Componente principal de la sección "¿Qué hacemos?"
+// Componente principal de la sección.
 const Hacer = () => {
   return (
-    <section id="what-we-do" className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">¿Qué hacemos?</h2>
-        <div className="flex flex-col md:flex-row justify-center items-stretch gap-8">
-          {featuresData.map((feature, index) => (
-            <FeatureCard key={index} title={feature.title} description={feature.description} />
+    <section id="que-hacemos" className="que-hacemos-section">
+      <div className="container">
+        <h2 className="section-title">¿Qué hacemos?</h2>
+        <div className="cards-container">
+          {problemData.map((problem, index) => (
+            <ProblemCard key={index} title={problem.title} description={problem.description} />
           ))}
         </div>
       </div>
