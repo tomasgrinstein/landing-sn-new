@@ -1,10 +1,8 @@
 .metas-seccion {
   width: 100%;
-  min-height: 100vh;
   background-color: #FFEDDB;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 4rem 2rem;
   box-sizing: border-box;

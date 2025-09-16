@@ -1,12 +1,12 @@
 .ayudanos-section {
-  background-color: #ffeddb;
+  background-color: #FFEDDB;
   display: flex;
-  justify-content: center;
   align-items: flex-start;
   padding: 60px 140px 80px;
   gap: 60px;
-  min-height: 80vh;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .ayudanos-content {
@@ -60,20 +60,18 @@
   align-items: flex-start;
   min-width: 200px;
 }
-/* Estilos para la imagen del celular */
+
 .ayudanos-image-placeholder img {
-  /* Hacemos que la imagen sea flexible y ocupe el 100% del espacio que le demos */
   width: 60%;
   height: auto;
+  max-width: 300px;
 }
 
-/* ----- Responsividad para pantallas más pequeñas ----- */
 @media (max-width: 992px) {
   .ayudanos-section {
     flex-direction: column;
     text-align: center;
     padding: 60px 20px;
-    /* En móvil, volvemos a centrar todo para que se vea bien */
     align-items: center;
   }
 
@@ -87,7 +85,6 @@
   }
   
   .ayudanos-description {
-    /* Reseteamos el max-width en móvil para que ocupe el ancho disponible */
     max-width: 100%;
   }
 

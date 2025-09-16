@@ -18,13 +18,11 @@
   position: relative;
 }
 
-/* Logo */
 .logo img {
   width: 120px;   
   height: auto;
 }
 
-/* Navegación */
 .nav {
   display: flex;
   gap: 50px;

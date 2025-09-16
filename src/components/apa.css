@@ -1,5 +1,5 @@
 .apa-hero {
-  background-color: #FFEDDB; /* Fondo durazno */
+  background-color: #FFEDDB;
   padding: 6rem 2rem;
   text-align: center;
 }
@@ -18,14 +18,15 @@
 }
 
 .apa-highlight {
-  color: #9b6bff; /* Violeta como en el mockup */
+  color: #9b6bff;
 }
 
 .apa-subtitle {
   font-size: 1.2rem;
   color: #444;
   max-width: 700px;
-  margin: 0 auto 2rem auto;
+  margin: 2rem auto 2rem auto;
+  margin-bottom: 100px;
 }
 
 .apa-button {
@@ -39,7 +40,6 @@
   border-radius: 9999px;
   border: none;
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 
 .apa-button:hover {

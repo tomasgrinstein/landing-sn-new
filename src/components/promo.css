@@ -1,7 +1,6 @@
 .promo-seccion {
-  background-color: #FFF0E3; /* Color de fondo durazno claro */
-  padding: 4rem 2rem;
-  overflow: hidden; /* Evita que la imagen se desborde */
+  background-color: #FFEDDB;
+  overflow: hidden;
 }
 
 .promo-container {
@@ -10,13 +9,12 @@
   justify-content: center;
   max-width: 1200px;
   margin: 0 auto;
-  flex-wrap: wrap; /* Para que se apilen en pantallas pequeñas */
+  flex-wrap: wrap;
 }
 
 .promo-col-imagen,
 .promo-col-logo {
-  flex: 1; /* Cada columna toma la mitad del espacio */
-  padding: 1rem;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,19 +23,17 @@
 .promo-col-imagen img {
   max-width: 100%;
   height: auto;
-  border-radius: 20px; /* Opcional: para redondear bordes si quieres */
 }
 
 .promo-logo-grande {
   font-size: 8rem;
   font-weight: 800;
-  color: #F97316; /* Naranja de la marca */
+  color: #F97316;
 }
 
-/* Estilos para pantallas pequeñas */
 @media (max-width: 768px) {
   .promo-container {
-    flex-direction: column; /* Apila las columnas */
+    flex-direction: column;
   }
   .promo-logo-grande {
     font-size: 5rem;
