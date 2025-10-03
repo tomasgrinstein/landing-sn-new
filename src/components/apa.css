@@ -51,11 +51,11 @@
   height: 20px;
 }
 
-.btn-probar-ahora {
+/* .btn-probar-ahora {
   position: fixed;
   bottom: 2rem;
   left: 50%;
   transform: translateX(-50%);
   z-index: 1000;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-}
+} */

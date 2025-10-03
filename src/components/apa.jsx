@@ -29,9 +29,9 @@ const Apa = () => {
           </svg>
         </button>
       </div>
-      <button className="apa-button btn-probar-ahora">
+      {/* <button className="apa-button btn-probar-ahora">
         Probar ahora
-      </button>
+      </button> */}
     </section>
   );
 };

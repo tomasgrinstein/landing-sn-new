@@ -58,3 +58,22 @@
 .btn-unete:hover {
   background-color: #ea580c; 
 }
+
+.btn-probar-ahora {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #ff6600;
+  color: white;
+  font-weight: 600;
+  padding: 0.8rem 1.6rem;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}

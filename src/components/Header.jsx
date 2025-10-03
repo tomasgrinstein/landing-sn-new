@@ -4,6 +4,7 @@ import logo from './logo.png';
 
 const Header = () => {
   return (
+    <>
     <header className="header">
       <div className="header-container">
         
@@ -23,6 +24,8 @@ const Header = () => {
         <button className="btn-unete">Ayudanos</button>
       </div>
     </header>
+    <button className='btn-probar-ahora'>Probar ahora</button>
+    </>
   );
 };
 

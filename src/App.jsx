@@ -14,14 +14,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <motion.div
-        initial={{ opacity: 0, y: -50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ amount: 0.2 }}
-      >
         <Header />
-      </motion.div>
 
       <motion.div
         initial={{ opacity: 0, y: 50 }}
